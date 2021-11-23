@@ -1,0 +1,47 @@
+POOmons
+
+Envulpes (Raposa) -->  Terra
+
+Descrição
+Envulpes é uma fêmea e é um POOmon do ambiente Terra, um dos POOmons com maior poder destrutivo. Os seus pelos são compostos por fósforo vermelho, tornando-a extremamente 
+reativa quando submetida a qualquer tipo de atrito, uma de suas características mais marcantes. Envulpes foi criada em um laboratório, com o objetivo de ser um projeto para 
+facilitar explorações subterrâneas, mas que saiu do controle. Ela se alimenta de pequenos animais e minerais que contenham enxofre (o que aumenta sua energia). Considerando 
+sua letalidade, Envulpes possui um temperamento amigável e calmo, exceto quando se encontra em situações de vulnerabilidade
+
+Táticas de Ataque
+Básico -->  Mandíbula de Fogo: Com seus dentes, morde o seu adversário com toda força capaz de sustentar em sua mandíbula.
+Agressivo --> Névoa Sulfúrica: após consumir qualquer mineral que contenha enxofre e com suas reservas cheias, Envulpes exala uma névola venenosa composta de enxofre e 
+ácido, causando danos na visão do adversário. 
+Cruel --> Phosphorus corruptibile: Ao atingir uma alta velocidade (aproximadamente 200km/h), Envulpes atrita os pelos com o ar, se transformando em uma bola de fogo 
+ambualante e atinge o adversário como uma força indescritível. 
+
+
+
+Elektrum (Enguia) --> Água
+
+Descrição
+Após nascer com uma mutação que o deixava extremamente forte para os demais de sua espécie, Elektrum foi exilado da Fossa das Marianas e condenado a vagar pelos oceanos 
+sozinho em busca de alimento (pequenos peixes e crustáceos) e companhia, tendo sua única proteção ele mesmo. Apesar de letal, é muito ingênuo e na tentativa por 
+acolhimento acaba sendo perigoso para qualquer ser vivo desavisado que se aproxime. Com a solidão, Elektrum desenvolveu ataques para sua defesa contra predadores, e seu 
+choque que já era imponente o torna cada vez mais indestrutível.
+
+Táticas de Ataque
+Básico --> Mordida feroz: Morde o adversário utilizando suas pequenas presas. 
+Agressivo --> Cauda demolidora: Utiliza sua cauda comprida para nocautear o oponente e causar um forte impacto. 
+Cruel --> Choque maligno: Eletrocuta o oponente mesmo de uma distância considerável, causando grandes queimaduras.
+
+
+
+Everttom (Urubu) --> Ar
+
+Descrição
+Nascido e criado com seu bando no ninho de Flamengo, Everttom treinou e desenvolveu suas habilidades de combate após ter seus parentes e amigos capturados por um grupo do 
+exterior de caçadores ilegais de POOMons. Ele busca ficar mais forte por meio de batalhas com outros POOMons e treinadores para obter a sua tão desejada vingança. Sua 
+espécie é adaptada para viver em bandos e morar em ninhos nas alturas, geralmente passa maior parte de seu tempo voando e caçando alimentos com seus relativos. Sua 
+principal fonte de alimento vem de frutas e pequenos peixes pescados em lagos rasos.
+
+Táticas de Ataque
+Básico --> Bicada Atordoante: Utiliza sua habilidade de fortificar o seu bico para avançar e bicar o adversário ferozmente
+Agressivo --> Rasante de Ferro: Levanta voo a uma altura considerável e realiza uma decida veloz para um rasante forte a fim de atingir o inimigo com suas asas fortificadas 
+por sua habilidade 
+Cruel --> Furacão Impetuoso: Levanta voo e agita suas asas com força máxima provocando um furacão forte e cruel em direção ao seu oponente de batalha
