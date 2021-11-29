@@ -1,3 +1,0 @@
-- Lista dos conhecimentos de POO a serem desenvolvidos 
-  - Tratar tipo do atributo "imagem" da classe "Poomon" 
-  - Como gerar um log (arquivo de texto) com a participação do Poomon
