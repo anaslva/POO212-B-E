@@ -279,10 +279,4 @@ public class POOmonA implements POOmonComportamento, Serializable{
 			}
 	    }
 	    
-	  
-	    public static void main(String[] args) {
-			POOmonA p= new POOmonA();
-			p.carregar(500);
-			p.getImagem();
-		}
 }
