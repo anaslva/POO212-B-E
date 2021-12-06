@@ -48,12 +48,7 @@ public class POOmonH implements POOmonComportamento, Serializable{
     	this.energia = 500;
     	this.informacoesLog = "\n \nLog de Batalha \nPOOmon: " + this.nome + " - " + this.getAmbienteOriginario() + "\n \n";
     	this.estatistica = new Estatistica();
-    	this.getDadosEstatistica();
-    	if(!this.achouArquivo) {
-    		this.gerarArquivoDados();
-    	}
-    	this.estatistica.setQtdAtivacoes(this.estatistica.getQtdAtivacoes() + 1);
-    	this.gerarArquivoDados();
+    	
     }
 
     @Override
@@ -180,7 +175,12 @@ public class POOmonH implements POOmonComportamento, Serializable{
     @Override
     public void setMediador(Mediador mediador) {
       this.mediador = mediador;
-        
+	  this.getDadosEstatistica();
+	  if(!this.achouArquivo) {
+	  	this.gerarArquivoDados();
+	  }
+	  this.estatistica.setQtdAtivacoes(this.estatistica.getQtdAtivacoes() + 1);
+	  this.gerarArquivoDados();
     }
 
     @Override
@@ -271,5 +271,9 @@ public class POOmonH implements POOmonComportamento, Serializable{
 		} catch(IOException ex) {
 			this.achouArquivo = false; 
 		}
-    }
+    } 
+    
 }
+
+
+
