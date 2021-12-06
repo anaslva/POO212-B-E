@@ -49,12 +49,6 @@ public class POOmonA implements POOmonComportamento, Serializable{
 	    	this.momentoMaiorEnergiaVital = LocalDateTime.now();
 	    	this.informacoesLog = "\n \nLog de Batalha \nPOOmon: " + this.nome + " - " + this.getAmbienteOriginario() + "\n \n";
 	    	this.estatistica = new Estatistica();
-	    	this.getDadosEstatistica();
-	    	if(!this.achouArquivo) {
-	    		this.gerarArquivoDados();
-	    	}
-	    	this.estatistica.setQtdAtivacoes(this.estatistica.getQtdAtivacoes() + 1);
-	    	this.gerarArquivoDados();
 	    }
 
 	    @Override
@@ -95,11 +89,6 @@ public class POOmonA implements POOmonComportamento, Serializable{
 
 	    @Override
 	    public int getEnergia() {
-
-	    	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-	    	DateTimeFormatter formatterHour = DateTimeFormatter.ofPattern("HH:mm:ss");
-	    	LocalDateTime hora = LocalDateTime.now().plusHours(-1);
-	    	this.informacoesLog += "Minha energia vital: " + this.energia + " - " + LocalDateTime.now().format(formatter) + " - " + hora.format(formatterHour) + "\n";
 	        return this.energia;
 	        
 	    }
@@ -176,7 +165,12 @@ public class POOmonA implements POOmonComportamento, Serializable{
 	    @Override
 	    public void setMediador(Mediador mediador) {
 	      this.mediador = mediador;
-	        
+	    	this.getDadosEstatistica();
+	    	if(!this.achouArquivo) {
+	    		this.gerarArquivoDados();
+	    	}
+	    	this.estatistica.setQtdAtivacoes(this.estatistica.getQtdAtivacoes() + 1);
+	    	this.gerarArquivoDados();
 	    }
 
 	    @Override
@@ -278,5 +272,5 @@ public class POOmonA implements POOmonComportamento, Serializable{
 				this.achouArquivo = false; 
 			}
 	    }
-	    
+	   
 }
